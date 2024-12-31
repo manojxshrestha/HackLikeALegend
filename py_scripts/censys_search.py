@@ -1,7 +1,7 @@
 import sys, json, requests, logging, os
 import censys.certificates
 
-API_URL = "https://censys.io/api/v1"
+API_URL = "https://search.censys.io/api"
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
